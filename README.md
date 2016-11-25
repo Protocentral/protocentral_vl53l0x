@@ -61,9 +61,8 @@ Once downloaded, unzip the archive and install the app as per your OS.
 
  f. You are all set now to get your reading visualized from the VL530lx !
 
- #### 5V Arduino boards
+ Arduino boards connections
 
-(including Arduino Uno, Leonardo, Mega; Pololu A-Star 32U4)
 
     Arduino   VL53L0X board
     -------   -------------
