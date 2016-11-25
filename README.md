@@ -22,10 +22,10 @@ Includes:
 
 Repository Contents
 -------------------
-* **/arduino** - Arduino library and example sketch
+* **/software** - Arduino library and processing example sketch
 * **/hardware** - All Eagle design files (.brd, .sch)
 * **/extras** - datasheets and extras
-* **/processing** - Processing-based Application
+
  
 Using Processing - Data Visualization Software
 -----------------------------------------------------
