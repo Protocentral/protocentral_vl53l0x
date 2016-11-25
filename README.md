@@ -88,13 +88,13 @@ Once downloaded, unzip the archive and install the app as per your OS.
 
  d. Once the GUI is running, select the port connect with breakout board from the "SELECT PORT" dropdown as shown in the figure below
 
-![Port Selection](https://github.com/Protocentral/AFE4400_Oximeter/blob/master/Processing/Final%20Output/Port-Selection.png)
+![Port Selection](https://github.com/Protocentral/Protocentral_VL530LX/blob/master/Processing%20Code/Final%20Output/portselection.png)
 
  e. Once the port selection is appropriate the START button gets enabled. Click "START" to initiate visualization
 
  f. You should see the PPG ( RED and IR) waves generated with the values obtained from the AFE4490 Oximeter Shield Breakout Board as shown below.
 
-![Read mm Form in Processing](https://github.com/Protocentral/AFE4400_Oximeter/blob/master/Processing/Final%20Output/PPG-Generated.png)
+![Read mm Form in Processing](https://github.com/Protocentral/Protocentral_VL530LX/blob/master/Processing%20Code/Final%20Output/output.png)
 
 License Information
 ===================
