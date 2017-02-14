@@ -44,12 +44,12 @@ Arduino Quickstart
 
 You can connect the vl53l0x board to your Arduino through the following pins
 
-    Arduino   VL53L0X board
-    -------   -------------
-         5V - VIN
-        GND - GND
-        SDA - SDA
-        SCL - SCL
+| Arduino | VL53L0X board |
+| ------- | ------------- |
+| 5V      | VIN |
+| GND     | GND |
+| SDA     | SDA |
+| SCL     | SCL |
         
 Using Processing - Data Visualization Software
 ----------------------------------------------
