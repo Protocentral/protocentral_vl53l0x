@@ -91,7 +91,7 @@ Once downloaded, unzip the archive and install the app as per your OS.
 
  e. Once the port selection is appropriate the START button gets enabled. Click "START" to initiate visualization
 
- f. You should see the PPG ( RED and IR) waves generated with the values obtained from the AFE4490 Oximeter Shield Breakout Board as shown below.
+ f. You should range of detection in mm from the Breakout Board as shown below.
 
 ![Read mm Form in Processing](https://github.com/Protocentral/Protocentral_VL530LX/blob/master/software/processing/Final%20Output/output.png)
 
