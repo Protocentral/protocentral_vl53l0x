@@ -3,57 +3,56 @@ ProtoCentral VL53L0X Laser ToF sensor breakout board
 [![Laser Sensor](https://www.protocentral.com/4446-thickbox_default/protocentral-vl53l0x-laser-tof-sensor-breakout.jpg)  
 *ProtoCentral VL53L0X Laser ToF sensor breakout (PC-SEN-2001)*](https://www.protocentral.com/motiondistance/1049-protocentral-vl53l0x-laser-tof-sensor-breakout.html)
 
-ST's VL53L0X is a 940 nm Laser source and a detector built in to the same chip. The result is a high accuracy Laser ranging sensor. 
 
-This breakout board (along with the Arduino libraries) from ProtoCentral make it easier to do quick prototypes for applications that require precision ranging. Applications include obstacle detection and gesture recognition, among others. We have even used these for non-invasive liquid level detection. 
+Data Visualization using Processing
+-----------------------------------
+ Processing is a data visualization software, in existence since 2001, used by artists and scientists alike. It’s an open source coding framework based on Java. If you are familiar with the Arduino environment, the Processing IDE is similar and you won’t have much of a learning curve to climb!
+ 
+ The following are the steps to run the code:
 
-This device is a Class 1 Laser device, so is classified "Eye-safe", meaning it will not burn your corneas out !
+### Download and Install Processing 
 
-Features
---------
-* 940 nm VCSEL laser including driver
-* Integrated Avalanche Photodiode
-* Maximum ranging distance of up to 2 meters
-* High immunity to ambient light
+ Download the processing ide latest version from the link
 
-Includes
---------
-* 1x Protocentral VL53L0X Laser tof sensor
-* 1x set of breakaway headers
+* [Download Processing for your OS] (http://download.processing.org/)
 
-Repository Contents
--------------------
-* **/software** - Arduino library and processing example sketch
-* **/hardware** - All Eagle design files (.brd, .sch)
-* **/extras** - datasheets and extras
+Once downloaded, unzip the archive and install the app as per your OS.
 
-Arduino Quickstart
-------------------
+### Download the Processing code for VL53L0X tof sensor
 
-### Download the [ProtoCentral VL53L0X library here](releases/download/v1.0/protocentral_vl53l0x.zip).
+ a. Download the necessary files & directories or clone to your desktop from GitHub.
 
-### Once downloaded, unzip the ZIP archive and copy the folder to your "libraries" folder in the Arduino Sketchbook folder. It is usually located in:
+ b. Unzipping the archive should make a folder by name Protocentral_VL530lx that contains the visualization code.
 
-* On MAC: <user_home>/Documents/Arduino/libraries
-* On Windows: <user_home>/My Documents/Arduino/libraries
-* On Linux: /home/<user_name>/sketchbook  
+ c. Locate the Processing sketchbook directory on your computer. This should have been created automatically when you installed processing. Depending on your operating system, the path will be as follows:
 
-### After the libraries are copied, you can open the example code from File->Examples->protocentral_vl53l0x->simple_distance
+* On Windows: c:/My Documents/Processing/
+* On MAC: /Users/your_user_name/Documents/Processing/
+* On Linux: /Home/your_user_name/sketchbook/
 
-### Arduino boards connections
+**Note:** This directory appears as "Processing" on Windows/Mac, and goes by the name "Sketchbook" on Linux. Create a subdirectory by name "libraries" if one doesn't exist already.
 
-You can connect the vl53l0x board to your Arduino through the following pins
+ d. From the above mentioned "Protocentral_VL530lx-master" directory Copy/Move the contents of the Protocentral_VL530lx-master/processing/openview_tof folder to the Processing sketchbook directory which is also mentioned above (Locate the Processing sketchbook)
 
-    Arduino   VL53L0X board
-    -------   -------------
-         5V - VIN
-        GND - GND
-        SDA - SDA
-        SCL - SCL
-        
-Using Processing - Data Visualization Software
-----------------------------------------------
- To visualize the data in a graphical plot continuously as shown below , please follow the steps given in this [document](docs/using_processing.md).
+ e. Finally, copy the G4P directories from Protocentral_VL530lx-master\Processing\libraries and paste them into the libraries directory of your Processing sketchbook.
+
+###  Upload the "continuous_packet" Arduino Sketch to your Arduino
+
+###  Open Processing & launch the openview_tof
+
+ a. If Processing IDE was open, close it and reopen to refresh the libraries and sketches. The repositories are not refreshed if the IDE was open while the Sketches and Libraries were being updated.
+
+ b. Double-click any of the .pde files in the openview_pulseox directory to open all of the pulse oximeter code in the Processing IDE.
+
+ c. If everything done so far was good, clicking the "run" button on the top left corner of the IDE, should run the code! If it does not, make sure you installed your libraries correctly.
+
+ d. Once the GUI is running, select the port connect with breakout board from the "SELECT PORT" dropdown as shown in the figure below
+
+![Port Selection](docs/images/portselection.png)
+
+ e. Once the port selection is appropriate the START button gets enabled. Click "START" to initiate visualization
+
+ f. You should range of detection in mm from the Breakout Board as shown below.
 
 ![Read mm Form in Processing](docs/images/output.png)
 
@@ -68,7 +67,7 @@ Hardware
 
 Software
 --------
-The Arduino library has been cloned from Pololu's Arduino library (https://github.com/pololu/vl53l0x-arduino/) based on ST Micro's code examples. The original code was licensed under the following conditions:
+The Arduino library has been heavily copied from Pololu's Arduino library (https://github.com/pololu/vl53l0x-arduino/) based on ST Micro's code examples. The original code was licensed under the following conditions:
 
 Copyright (c) 2016 Pololu Corporation.  For more information, see
 
