@@ -32,7 +32,7 @@ Arduino Quickstart
 
 * Download the [ProtoCentral VL53L0X library here](releases/download/v1.0/protocentral_vl53l0x.zip).
 
-*Once downloaded, unzip the ZIP archive and copy the folder to your "libraries" folder in the Arduino Sketchbook folder. It is usually located in:
+* Once downloaded, unzip the ZIP archive and copy the folder to your "libraries" folder in the Arduino Sketchbook folder. It is usually located in:
 
 	* On MAC: <user_home>/Documents/Arduino/libraries
 	* On Windows: <user_home>/My Documents/Arduino/libraries
@@ -40,20 +40,18 @@ Arduino Quickstart
 
 * After the libraries are copied, you can open the example code from File->Examples->protocentral_vl53l0x->simple_distance
 
-* Arduino boards connections
+* Connect the vl53l0x board to your Arduino with the following connections
 
-You can connect the vl53l0x board to your Arduino through the following pins
-
-| Arduino | VL53L0X board |
-| ------- | ------------- |
-| 5V      | VIN |
-| GND     | GND |
-| SDA     | SDA |
-| SCL     | SCL |
+	| Arduino | VL53L0X board |
+	| ------- | ------------- |
+	| 5V      | VIN |
+	| GND     | GND |
+	| SDA     | SDA |
+	| SCL     | SCL |
         
 Using Processing - Data Visualization Software
 ----------------------------------------------
- To visualize the data in a graphical plot continuously as shown below , please follow the steps given in this [document](docs/using_processing.md).
+ For continuous graphical data visualization as shown below, please follow the steps given in this [document](docs/using_processing.md).
 
 ![Read mm Form in Processing](docs/images/output.png)
 
