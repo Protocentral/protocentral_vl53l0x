@@ -48,13 +48,13 @@ Once downloaded, unzip the archive and install the app as per your OS.
 
  d. Once the GUI is running, select the port connect with breakout board from the "SELECT PORT" dropdown as shown in the figure below
 
-![Port Selection](docs/images/portselection.png)
+![Port Selection](/docs/images/portselection.png)
 
  e. Once the port selection is appropriate the START button gets enabled. Click "START" to initiate visualization
 
  f. You should range of detection in mm from the Breakout Board as shown below.
 
-![Read mm Form in Processing](docs/images/output.png)
+![Read mm Form in Processing](/docs/images/output.png)
 
 License Information
 ===================
