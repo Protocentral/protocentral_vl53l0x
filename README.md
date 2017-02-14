@@ -30,17 +30,17 @@ Repository Contents
 Arduino Quickstart
 ------------------
 
-### Download the [ProtoCentral VL53L0X library here](releases/download/v1.0/protocentral_vl53l0x.zip).
+* Download the [ProtoCentral VL53L0X library here](releases/download/v1.0/protocentral_vl53l0x.zip).
 
-### Once downloaded, unzip the ZIP archive and copy the folder to your "libraries" folder in the Arduino Sketchbook folder. It is usually located in:
+*Once downloaded, unzip the ZIP archive and copy the folder to your "libraries" folder in the Arduino Sketchbook folder. It is usually located in:
 
 * On MAC: <user_home>/Documents/Arduino/libraries
 * On Windows: <user_home>/My Documents/Arduino/libraries
 * On Linux: /home/<user_name>/sketchbook  
 
-### After the libraries are copied, you can open the example code from File->Examples->protocentral_vl53l0x->simple_distance
+* After the libraries are copied, you can open the example code from File->Examples->protocentral_vl53l0x->simple_distance
 
-### Arduino boards connections
+* Arduino boards connections
 
 You can connect the vl53l0x board to your Arduino through the following pins
 
