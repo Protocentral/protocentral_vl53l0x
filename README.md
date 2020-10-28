@@ -3,6 +3,9 @@ ProtoCentral VL53L0X Laser ToF sensor breakout board
 [![Laser Sensor](https://www.protocentral.com/4446-thickbox_default/protocentral-vl53l0x-laser-tof-sensor-breakout.jpg)  
 *ProtoCentral VL53L0X Laser ToF sensor breakout (PC-SEN-2001)*](https://www.protocentral.com/motiondistance/1049-protocentral-vl53l0x-laser-tof-sensor-breakout.html)
 
+[Dont have it yet? Buy one here: ProtoCentral VL53L0X Laser ToF sensor breakout (PC-SEN-2001)](https://protocentral.com/product/protocentral-vl53l0x-laser-tof-sensor-breakout/)
+![Laser ToF sensor breakout](docs/images/VL53L0X Laser breakout.jpg)
+
 ST's VL53L0X is a 940 nm Laser source and a detector built in to the same chip. The result is a high accuracy Laser ranging sensor. 
 
 This breakout board (along with the Arduino libraries) from ProtoCentral make it easier to do quick prototypes for applications that require precision ranging. Applications include obstacle detection and gesture recognition, among others. We have even used these for non-invasive liquid level detection. 
