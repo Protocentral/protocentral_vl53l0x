@@ -5,7 +5,7 @@ ProtoCentral VL53L0X Laser ToF sensor breakout board
 
 
 [Dont have it yet? Buy one here: ProtoCentral VL53L0X Laser ToF sensor breakout (PC-SEN-2001)](https://protocentral.com/product/protocentral-vl53l0x-laser-tof-sensor-breakout/)
-![Laser ToF sensor breakout](docs/images/VL53L0X Breakout.jpg)
+![Laser ToF sensor breakout](https://github.com/Protocentral/protocentral_vl53l0x/blob/master/docs/images/VL53L0X%20Breakout.jpg?raw=true)
 
 ST's VL53L0X is a 940 nm Laser source and a detector built in to the same chip. The result is a high accuracy Laser ranging sensor. 
 
